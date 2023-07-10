@@ -1,38 +1,60 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  font-family: 'Press Start 2P', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.main-title {
+  /*   text-align: center; */
+color:rgba(85, 188, 232, 0.647);
+text-align: center;
+font-size: 25px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-container {
+  border: 10px solid rgb(150, 255, 59);
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.score-container {
+  border: 2px solid black;
+  margin: 10px 6px;
+}
+
+.country-name {
+  text-align: center;
+}
+
+.name-score-flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  width: 98%;
+  /* Example width */
+  margin: 4px auto;
+}
+
+.name {
+  /* margin-right: auto; */
+  margin-left: 10rem;
+ 
+}
+
+.score {
+  margin-left: auto;
+  padding-right: 10px;
+
 }
