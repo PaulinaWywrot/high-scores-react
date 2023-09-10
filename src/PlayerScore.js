@@ -13,13 +13,3 @@ const PlayerScore = (props) => {
   );
 };
 export default PlayerScore;
-// {country.scores.map((score) => {
-//               return (
-//                 <div class="flexbox">
-//                   <div class="flex">
-//                     <p class="name">{score.n.toUpperCase()} </p>
-//                     <p class="score">{score.s}</p>
-//                   </div>
-//                 </div>
-//               );
-//             })}
